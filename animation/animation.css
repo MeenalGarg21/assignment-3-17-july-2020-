@@ -1,0 +1,124 @@
+section, h1 { 
+
+  margin: 2rem 4rem;  
+ 
+ } 
+ 
+  
+ 
+ .square { 
+ 
+ width: 150px; 
+ 
+ height: 150px; 
+ 
+ background: blue; 
+ 
+   position: relative; 
+   
+ 
+ } 
+ 
+  
+ 
+  
+ 
+ /* The skew() method */ 
+ 
+ #skew .square { 
+ 
+   background-color: purple; 
+   transform: skew(30deg , 40deg);
+ 
+ } 
+ 
+  
+ 
+  
+ 
+ #skew .square:hover {   
+ background-color: yellow;
+  }
+  
+ 
+ } 
+ 
+    
+ 
+  
+ 
+ /* The scale() method */ 
+ 
+ #scale .square div {  
+ 
+    background: #000;   
+ 
+    position: absolute; 
+
+    color: hotpink;
+ 
+    left: 25%; 
+ 
+    top: 25%; 
+ 
+    width: 75px; 
+ 
+    height: 75px; 
+    transform: translate(50px, 100px);
+
+ } 
+ 
+  
+ 
+ #scale .square div:hover { 
+ 
+  color:orange;
+ 
+ } 
+ 
+  
+ 
+ /* The rotate() method */ 
+ 
+ #rotate .square { 
+ 
+   background-color: tomato; 
+   color: lawngreen;
+
+   
+  transform: rotateX(60deg);
+  
+ 
+ 
+ } 
+ 
+  
+ 
+ #rotate .square:hover {   
+   
+  background-color: magenta;
+ 
+  
+ 
+ } 
+ 
+  
+ 
+  
+ 
+ /* The translate() method */ 
+ 
+ #translate .square { 
+ 
+   background-color: orange; 
+   transform: translate(500px , 100px)
+   
+ } 
+ 
+  
+ 
+ #translate .square:hover {  
+ 
+  background-color:hotpink;
+ 
+ } 
